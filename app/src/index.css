@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.max_w {
+  width: 85%;
+  margin: auto;
+}
+
+/* Navbar start */
+.navbar {
+  margin: 15px 0px;
+}
+.bloc_nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.fl1,
+.fl2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bloc_nav ul {
+  display: flex;
+  padding: 0;
+}
+.bloc_nav ul li {
+  list-style: none;
+}
+.bloc_nav ul li a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 1.4px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+  padding-left: 20px;
+}
+.fl1 .down {
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  font-weight: 400;
+}
+.fl2 button {
+  height: 40px;
+  width: 135px;
+  color: white;
+  border-radius: 4px;
+  background: #0a61f7;
+  font-weight: 400;
+  font-size: 12px;
+  border: none;
+  margin-left: 20px;
+  transition: all 0.5s;
+}
+
+.fl2 button:hover {
+  border: 2px solid #0a61f7;
+  background-color: white;
+  color: #0a61f7;
+  box-shadow: inset 0px 0px 20px;
+}
+/* Navbar end */
+
+/* Bannner start */
+
+.banner {
+  width: 100%;
+  background-image: url("./Images/Frame1.png");
+  background-size: cover;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: #657085;
+  padding-top: 150px;
+}
+.banner h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 57px;
+  line-height: 73px;
+  text-align: center;
+  letter-spacing: 1.6px;
+  color: #1c202b;
+  margin-top: 15px;
+}
+.banner button {
+  height: 60px;
+  width: 233px;
+  border-radius: 4px;
+  background: #0a61f7;
+  border: none;
+  margin-top: 20px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  transition: all 0.5s;
+  margin-bottom: 160px;
+}
+.banner button:hover {
+  color: #0a61f7;
+  background-color: #ffffff;
+  border: 2px solid #0a61f7;
+}
+/* Banner end */
+
+/* Support start */
+.support {
+  margin-top: 100px;
+}
+.h31 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: #657085;
+}
+.h11 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 48px;
+  letter-spacing: 0.8px;
+  color: #1c202b;
+  margin-top: 20px;
+}
+.h11 span {
+  color: #0a61f7;
+}
+.bloc_sup {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+.sup1 h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #1c202b;
+  margin-top: 30px;
+}
+.sup1 span {
+  color: #0a61f7;
+}
+.sup1 button {
+  height: 51px;
+  width: 152px;
+  border-radius: 4px;
+  margin-top: 20px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #0a61f7;
+  transition: all 0.5s;
+}
+.sup1 button:hover {
+  color: #0a61f7;
+  background-color: #ffffff;
+  border: 2px solid #0a61f7;
+}
+/* Support end */
